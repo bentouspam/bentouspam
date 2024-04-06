@@ -2,10 +2,12 @@
 
 
 
-I am experiencing an issue when I want to cast a dashboard on a chromecast, a nest hub or a nest hub max.
+## I am experiencing an issue when I want to cast a dashboard on a chromecast, a nest hub or a nest hub max.
 
 when i click on the icon ![image](https://github.com/bentouspam/bentouspam/assets/101732505/549bc3c0-ca71-43f8-abff-562b06a286d0) , 
 the browser says "Unknown error"
+
+## 
 I have this problem in the following cases:
 Chrome or Edge
 http and https access !!! I should have a warning message in http mode, this is not allowed on non secure protol !!! 

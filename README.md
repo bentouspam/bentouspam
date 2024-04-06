@@ -12,6 +12,8 @@ I have this problem in the following cases:
 Chrome or Edge
 http and https access !!! I should have a warning message in http mode, this is not allowed on non secure protol !!! 
 
+see err 01 to 03 png file. the 04 is when using a http connexion with edge.
+
 
 ## System Information
 

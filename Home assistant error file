@@ -1,0 +1,27 @@
+Enregistreur: homeassistant.components.websocket_api.http.connection
+Source: components/lovelace/cast.py:185
+intégration: Home Assistant WebSocket API (documentation, problèmes)
+S'est produit pour la première fois: 12:14:41 (10 occurrences)
+Dernier enregistrement: 16:29:21
+
+[546781638336] Error handling message: Unknown error (unknown_error) Benoit from 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36)
+[546783017792] Error handling message: Unknown error (unknown_error) Benoit from fe80::7e39:b639:fae0:27ae (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36)
+[546711909568] Error handling message: Unknown error (unknown_error) Benoit from 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0)
+[546720233152] Error handling message: Unknown error (unknown_error) Benoit from fe80::7e39:b639:fae0:27ae (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36)
+[546714208704] Error handling message: Unknown error (unknown_error) Benoit from 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/decorators.py", line 27, in _handle_async_response
+    await func(hass, connection, msg)
+  File "/usr/src/homeassistant/homeassistant/components/media_player/__init__.py", line 1312, in websocket_browse_media
+    payload = await player.async_browse_media(media_content_type, media_content_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/cast/media_player.py", line 660, in async_browse_media
+    browse_media = await platform.async_browse_media(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/lovelace/cast.py", line 83, in async_browse_media
+    info = await _get_dashboard_info(hass, url_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/lovelace/cast.py", line 185, in _get_dashboard_info
+    for idx, view in enumerate(config["views"]):
+                               ~~~~~~^^^^^^^^^
+KeyError: 'views'

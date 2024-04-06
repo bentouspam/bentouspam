@@ -1,9 +1,6 @@
 ### Hi there 👋
 
-<!--
-**bentouspam/bentouspam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
 I am experiencing an issue when I want to cast a dashboard on a chromecast, a nest hub or a nest hub max.
 
